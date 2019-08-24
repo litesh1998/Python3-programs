@@ -1,0 +1,5 @@
+l=input('Enter The String: ').strip().split()
+l.sort(key=len)
+l[0]=l[0].title()
+l=' '.join(l)
+print(l+".")
